@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0px;
+  background: #fffaf3;
+  color: #333;
+}
+
+header {
+  background: #e63946;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width:300px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: url('https://example.com/pizza-hero.jpg') no-repeat center center/cover;
+  padding: 40px 20px;
+  text-align: center;
+  color: black;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background: #f1c40f;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+}
+
+.menu {
+  padding: 20px;
+}
+
+.pizza-grid {
+  display: flex;
+}
+
+.pizza-item {
+  background: white;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background: #e63946;
+  color: white;
+}
