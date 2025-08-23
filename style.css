@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: "Segoe UI", sans-serif;
   margin: 0px;
   background: #fffaf3;
   color: #333;
@@ -21,14 +21,45 @@ nav ul {
   justify-content: space-around;
   width:400px;
 }
+* {
+  transition: 0.3s;
+}
 
 nav a {
   color: white;
   text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+nav li:hover {
+  transform: scale(1.1) translateY(-4px);
+}
+
+.about_section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.about_section_text{
+  max-width: 600px;
+  text-align: center;
+  font-size: 18px
+}
+
+
+
+.map  iframe{
+  border-radius: 12px;
 }
 
 .hero {
-  background: url('https://example.com/pizza-hero.jpg') no-repeat center center/cover;
+  background: url("https://example.com/pizza-hero.jpg") no-repeat
+    center center/cover;
   padding: 40px 20px;
   text-align: center;
   color: black;
