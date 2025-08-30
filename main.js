@@ -28,3 +28,6 @@ pizzaItems.forEach(item => {
   observer.observe(item);
 });
 
+function buy() {
+  alert("Дякуємо за покупку!")
+}

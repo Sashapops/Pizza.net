@@ -58,8 +58,6 @@ nav li:hover {
 }
 
 .hero {
-  background: url("https://example.com/pizza-hero.jpg") no-repeat
-    center center/cover;
   padding: 40px 20px;
   text-align: center;
   color: black;
