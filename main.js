@@ -27,12 +27,4 @@ pizzaItems.forEach(item => {
   item.style.transition = 'all 0.6s ease-out';
   observer.observe(item);
 });
-document.addEventListener("DOMContentLoaded", function () {
-  const buttons = document.querySelectorAll(".buy-button");
 
-  buttons.forEach(button => {
-    button.addEventListener("click", () => {
-      alert("Смачного!");
-    });
-  });
-});
