@@ -36,3 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
+function buy() {
+  alert("Дякуємо за покупку!")
+}
